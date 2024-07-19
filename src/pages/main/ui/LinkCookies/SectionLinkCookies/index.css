@@ -1,0 +1,6 @@
+.link_socials::-webkit-scrollbar {
+  width: 0;
+}
+.link_socials {
+  -ms-overflow-style: none;
+}

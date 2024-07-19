@@ -1,0 +1,1 @@
+export { SectionLogoPicheni } from './SectionLogoPicheni';

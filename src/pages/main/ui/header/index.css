@@ -1,0 +1,65 @@
+@media (max-width: 769px) {
+  .burger {
+    display: flex;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .burger span {
+    width: 8vw;
+    height: 0.53vw;
+    transform: scale(1);
+    background-color: #003c46;
+  }
+
+  .burger::before {
+    content: '';
+    position: absolute;
+    width: 8vw;
+    height: 0.63vw;
+    background-color: #003c46;
+    transition: all 0.3s ease 0s;
+    top: 1.5vw;
+  }
+
+  .burger.active span {
+    transform: rotate(-45deg) translate(0, -50%);
+    background-color: #fff;
+    height: 0.63vw;
+  }
+
+  .burger.active::before {
+    top: 3.3vw;
+    transform: rotate(45deg) translate(0, 50%);
+    background-color: #fff;
+  }
+}
+
+.burger-menu span {
+  background-color: #fff;
+}
+
+.burger-menu::before {
+  background-color: #fff;
+}
+
+.nav {
+  animation: burgerAnimation 0.4s;
+}
+
+@keyframes burgerAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.head-Logo-Picheni path {
+  fill: #fff
+}

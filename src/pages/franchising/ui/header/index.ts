@@ -1,0 +1,1 @@
+export { SectionHeaderFranchising } from './SectionHeaderFranchising';

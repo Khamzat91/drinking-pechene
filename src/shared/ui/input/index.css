@@ -1,0 +1,35 @@
+input[type='checkbox'] {
+  display: none;
+}
+.labelCheckbox {
+  vertical-align: middle;
+  font-size: 1.25vw;
+  line-height: 1.8vw;
+  color: #fff;
+}
+.labelCheckbox::before {
+  content: '';
+  width: 1.63vw;
+  height: 1.63vw;
+  display: inline-block;
+  border: solid 0.07vw #6b6969;
+  border-radius: 0.27vw;
+  transition: 0.2s;
+  margin-right: 0.83vw;
+  margin-bottom: -0.27vw;
+}
+
+@media (max-width: 768px) {
+  .labelCheckbox {
+    font-size: 4.8vw;
+    line-height: 6.6vw;
+  }
+  .labelCheckbox::before {
+    width: 8.4vw;
+    height: 6.4vw;
+    border-radius: 1vw;
+    transition: 0.2s;
+    margin-right: 3.2vw;
+    margin-bottom: -1.27vw;
+  }
+}

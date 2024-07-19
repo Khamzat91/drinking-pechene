@@ -1,0 +1,9 @@
+export { Instagram } from './Instagram';
+export { InstagramY } from './InstagramY';
+export { InstagramW } from './InstagramW';
+export { HeaderLogoPicheni } from './headerLogoPicheni';
+export { LogoPicheniMd } from './logoPicheniMd';
+export { Adventure } from './adventure';
+export { FranchisingLogo } from './franchisingLogo';
+export { HeaderCart } from './headerCart';
+export { MenuCard } from './menuCard';

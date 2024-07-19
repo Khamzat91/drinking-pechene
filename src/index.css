@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'NAMU';
+  src: url('../public/fonts/NAMU-1750.TTF');
+}
+#root, body {
+  height: 100%;
+}
+
+html {
+  background-color: #003c46;
+  height: 100%;
+  font-family: 'NAMU', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+.border-white {
+  --tw-border-opacity: 0.25;
+}
+
+
+
